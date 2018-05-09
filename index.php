@@ -9,31 +9,7 @@ include('header.php');
   <!-- Banner with Navigation -->
 
   <div id="index-banner" class="parallax-container">
-    <nav role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Product</a></li>
-        <li><a href="#">How it Works</a></li>
-        <li><a href="#">Business</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a class="btn-flat white green-text" href="#">Buy Now</a></li>
-        <li><a href="#"><i class="tiny material-icons">shopping_cart</i></a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Product</a></li>
-        <li><a href="#">How it Works</a></li>
-        <li><a href="#">Business</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+    <?php include('nav.php'); ?>
     <div class="section no-padding valign-wrapper">
       <div class="container">
         <div class="row center">

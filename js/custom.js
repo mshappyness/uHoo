@@ -32,6 +32,11 @@ $(document).ready(function(){
 
   });
 
+  $('.play-video').click(function(){
+    var url = $(this).attr('video-url');
+    alert('play video '+url);
+  });
+
 });
 
 
@@ -48,4 +53,6 @@ function moveToSlider(index){
   var slide = index+1;
   $('.green-box .slider .slides li.slide-'+slide).fadeIn();
 }
+
+
 
