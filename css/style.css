@@ -188,6 +188,7 @@ nav ul li a{
 
 .green-box .slider .slides li{
     display: none;
+    top: 166px;
     /*opacity: 1 !important;*/
 }
 
@@ -265,7 +266,6 @@ img.circle.factor-icons.responsive-img:hover {
     top: -112px;
     width: 300px;
     pointer-events: none;
-    display: none;
     text-align: left;
 }
 
@@ -282,8 +282,15 @@ img.circle.factor-icons.responsive-img:hover {
     top: -185px;
     width: 300px;
     pointer-events: none;
-    display: none;
+    /*display: none;*/
     text-align: left;
+}
+
+.material-tooltip1{
+    /*use for fade in effect*/
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
 }
 
 .tooltip-content-even {
@@ -295,7 +302,7 @@ img.circle.factor-icons.responsive-img:hover {
 }
 
 .odd, .even{position: relative; float: left;padding: 0 10px;}
-a.factor-content:hover .material-tooltip1 {display: block;}
+a.factor-content:hover .material-tooltip1 {visibility: visible;opacity: 1; }
 .factor-holder{padding: 0 25%!important;margin-top: 100px;}
 .even {margin-top: 60px;}
 

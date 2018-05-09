@@ -1,8 +1,7 @@
 $(document).ready(function(){
     $('.modal').modal();
-    $('.tooltipped').tooltip({enterDelay: 350, margin: 35});
+    // $('.tooltipped').tooltip({delay: 50, enterDelay: 350, margin: 35});
 
-    // $('.slider').slider({autplay:false});
     $('.carousel.carousel-slider').carousel({fullWidth: true,indicators: true});
 
      // move next carousel
@@ -10,8 +9,6 @@ $(document).ready(function(){
       e.preventDefault();
       e.stopPropagation();
       $('.carousel').carousel('next');
-       // $('.slider').slider('next');
-
        // 
        setTimeout(function(){
         moveToSlider(getActiveSliderIndex());
@@ -23,16 +20,10 @@ $(document).ready(function(){
       e.preventDefault();
       e.stopPropagation();
       $('.carousel').carousel('prev');
-       // $('.slider').slider('prev');
        setTimeout(function(){
         moveToSlider(getActiveSliderIndex());
        }, 200);
    });
-
-
-
-
-
 
   // click on slider indicator
   $('.indicator-item').click(function(e){

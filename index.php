@@ -286,33 +286,33 @@ include('header.php');
                   <div class="slider">
                     <ul class="slides">
                       <li class="slide-1">
-                        <div class="title">
+                        <h3 class="title">
                           Title1
-                        </div>
+                        </h3>
                         <div class="details">
                           Detail1
                         </div>
                       </li>
                       <li class="slide-2">
-                        <div class="title">
+                        <h3 class="title">
                           Title2
-                        </div>
+                        </h3>
                         <div class="details">
                           Detail2
                         </div>
                       </li>
                       <li class="slide-3">
-                        <div class="title">
+                        <h3 class="title">
                           Title3
-                        </div>
+                        </h3>
                         <div class="details">
                           Detail3
                         </div>
                       </li>
                       <li class="slide-4">
-                        <div class="title">
+                        <h3 class="title">
                           Title4
-                        </div>
+                        </h3>
                         <div class="details">
                           Detail4
                         </div>
