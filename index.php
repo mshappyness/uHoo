@@ -247,6 +247,19 @@ include('header.php');
 
     <!-- Slider Section --> 
 
+
+
+    <!-- custom slider -->
+
+    <div id="CustomContent" class="container">
+      custom slider
+    </div>
+
+
+
+
+
+
   <div id="Content" class="container">
     <div class="section">
       <div class="row">
@@ -263,41 +276,54 @@ include('header.php');
       <div class="row">
         <div class="col s12 center-align no-padding">
          <div class="carousel carousel-slider center">
+
+
           <div class="carousel-fixed-item center content-slider">
                 <div class="white-box">
                   <i class="large material-icons">play_circle_outline</i>
                 </div>
                 <div class="green-box">
-                <div class="slider">
-    <ul class="slides">
-      <li>
-       
-        <div class="caption center-align">
-        1
-        </div>
-      </li>
-      <li>
-
-        <div class="caption left-align">
-         2
-        </div>
-      </li>
-      <li>
-       
-        <div class="caption right-align">
-         3
-        </div>
-      </li>
-      <li>
-    
-        <div class="caption center-align">
-        4
-        </div>
-      </li>
-    </ul>
-  </div>
+                  <div class="slider">
+                    <ul class="slides">
+                      <li class="slide-1">
+                        <div class="title">
+                          Title1
+                        </div>
+                        <div class="details">
+                          Detail1
+                        </div>
+                      </li>
+                      <li class="slide-2">
+                        <div class="title">
+                          Title2
+                        </div>
+                        <div class="details">
+                          Detail2
+                        </div>
+                      </li>
+                      <li class="slide-3">
+                        <div class="title">
+                          Title3
+                        </div>
+                        <div class="details">
+                          Detail3
+                        </div>
+                      </li>
+                      <li class="slide-4">
+                        <div class="title">
+                          Title4
+                        </div>
+                        <div class="details">
+                          Detail4
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
             </div>
+
+
+
               <div class="carousel-fixed-item center middle-indicator">
                  <div class="left">
                   <a href="Previo" class="movePrevCarousel middle-indicator-text waves-effect waves-light content-indicator"><i class="material-icons left  middle-indicator-text">chevron_left</i></a>
@@ -309,20 +335,20 @@ include('header.php');
               </div>
             
             <div class="carousel-item carousel-item red white-text" href="#one!">
-             <div class="top-content"><h2>First Panel</h2>
-              <p class="white-text">This is your first panel</p></div>
+             <!-- <div class="top-content"><h2>First Panel</h2>
+              <p class="white-text">This is your first panel</p></div> -->
             </div>
             <div class="carousel-item amber white-text" href="#two!">
-              <h2>Second Panel</h2>
-              <p class="white-text">This is your second panel</p>
+              <!-- <h2>Second Panel</h2>
+              <p class="white-text">This is your second panel</p> -->
             </div>
             <div class="carousel-item green white-text" href="#three!">
-              <h2>Third Panel</h2>
-              <p class="white-text">This is your third panel</p>
+             <!--  <h2>Third Panel</h2>
+              <p class="white-text">This is your third panel</p> -->
             </div>
             <div class="carousel-item blue white-text" href="#four!">
-              <h2>Fourth Panel</h2>
-              <p class="white-text">This is your fourth panel</p>
+              <!-- <h2>Fourth Panel</h2>
+              <p class="white-text">This is your fourth panel</p> -->
             </div>
           </div>
         </div>

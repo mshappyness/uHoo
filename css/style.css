@@ -180,6 +180,22 @@ nav ul li a{
 
 #Slider .section {padding-top: 3rem;}
 
+
+/*need to overwrite materialize slide properties*/
+.green-box .slider .slides{
+    background: none;
+}
+
+.green-box .slider .slides li{
+    display: none;
+    /*opacity: 1 !important;*/
+}
+
+.slider .slides li:first-child{
+  display: block;
+}
+
+
 .carousel-fixed-item.center.content-slider.with-indicators {
     top: -25px;
     height: 450px;
@@ -200,6 +216,7 @@ nav ul li a{
     position: absolute;
     border-radius: 20px 70px 70px 20px;
     box-shadow: 5px 5px 20px 0px rgba(5,79,58,0.2);
+    z-index: 1;
 }
 
 img.circle.factor-icons.responsive-img {
