@@ -133,6 +133,30 @@ include('header.php');
 	</div>
 </div>
 
+<div class="section">
+	<div class="content valign-wrapper row s12">
+		<div class="col s12 l6 offset-l3">
+			<h2 class="center-align">Technical Details</h2>
+			<div class="row">
+			    <div class="col s12">
+			      <ul class="tabs">
+			        <li class="tab col s6"><a class="active" href="#requirements">Requirements</a></li>
+			        <li class="tab col s6"><a class="active" href="#specs">Specifications</a></li>
+			      </ul>
+			    </div>
+			    <div id="requirements" class="col s12">Test 1</div>
+			    <div id="specs" class="col s12">Test 2</div>
+			  </div>
+		</div>
+	</div>
+</div>
+
+<div class="section">
+	<div class="content valign-wrapper row s12">
+		Whats in the box
+	</div>
+</div>
+
 
 <?php
 include('footer.php');

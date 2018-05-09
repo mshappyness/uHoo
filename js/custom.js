@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $('.modal').modal();
+    $('ul.tabs').tabs();
     // $('.tooltipped').tooltip({delay: 50, enterDelay: 350, margin: 35});
 
     $('.carousel.carousel-slider').carousel({fullWidth: true,indicators: true});
