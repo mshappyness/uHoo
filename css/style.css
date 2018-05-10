@@ -313,13 +313,13 @@ a.factor-content:hover .material-tooltip1 {visibility: visible;opacity: 1; }
 .n .section.first {
     margin-top: -64px;
     padding-top: 64px;
+
+    background-size: cover !important;
 }
 
 .n .section.first .content{
     height: calc(100vh - 64px);
-    background: url(https://thumbs.dreamstime.com/b/green-twirl-circular-wave-background-49608086.jpg) !important;
-    background-size: cover !important;
-    background-position: center !important;
+    
 }
 
 .n .section .content {
@@ -329,6 +329,11 @@ a.factor-content:hover .material-tooltip1 {visibility: visible;opacity: 1; }
 .n .section {
     min-height: 100vh;
     padding: 0;
+
+
+    /*for background content*/
+    background-size: cover !important;
+    background-position: center !important;
 }
 
 .content{
@@ -389,4 +394,11 @@ a.factor-content:hover .material-tooltip1 {visibility: visible;opacity: 1; }
 
 .app-download-link img {
     width: 30%;
+}
+
+.no-padding-container .col {
+    height: 50%;
+    padding: 2rem;
+    background-size: cover !important;
+    background-position: center !important;
 }

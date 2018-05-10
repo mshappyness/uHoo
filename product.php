@@ -24,7 +24,7 @@ include('header.php');
 <?php include('nav.php'); ?>
 
 <div class="section first green">
-	<div class="content valign-wrapper center-align">
+	<div class="content valign-wrapper center-align" style="background: url(https://thumbs.dreamstime.com/b/green-twirl-circular-wave-background-49608086.jpg)">
 		<div class="full-width">Refined. <img src="http://images.clipartpanda.com/idea-clipart-canstock2656715.jpg"> Beautiful.</div>
 	</div>
 </div>
@@ -195,15 +195,9 @@ include('header.php');
 	</div>
 </div>
 
-<div class="row s12 center-align">
-	Follow us on
-	<div class="social-container">
-		<img style="width: 40px" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_square-256.png">
-		<img style="width: 40px" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_square-256.png">
-		<img style="width: 40px" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_square-256.png">
-		<img style="width: 40px" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_square-256.png">
-	</div>
-</div>
+
+
+<?php include('follow.php'); ?>
 
 
 <?php
