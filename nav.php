@@ -4,7 +4,7 @@
       <ul class="right hide-on-med-and-down">
         <li><a href="product.php">Product</a></li>
         <li><a href="howitworks.php">How it Works</a></li>
-        <li><a href="#">Business</a></li>
+        <li><a href="business.php">Business</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
