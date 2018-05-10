@@ -139,12 +139,19 @@ include('header.php');
 			<h2 class="center-align">Technical Details</h2>
 			<div class="row">
 			    <div class="col s12">
-			      <ul class="tabs">
-			        <li class="tab col s6"><a class="active" href="#requirements">Requirements</a></li>
+			      <ul class="tabs light-green-text">
+			        <li class="tab col s6"><a class="active " href="#requirements">Requirements</a></li>
 			        <li class="tab col s6"><a class="active" href="#specs">Specifications</a></li>
 			      </ul>
 			    </div>
-			    <div id="requirements" class="col s12">Test 1</div>
+			    <div id="requirements" class="col s12">
+			    	<ul>
+			    		<li>Private WiFi network 802.11 @ 2.4Ghz b/g/n</li>
+			    		<li>Free uHoo mobile app on iOS or Android</li>
+			    		<li>iPhone with iOS 9 or later or Android phone with Android OS version 4.3 or higher</li>
+			    		<li>Power Outlet</li>
+			    	</ul>
+			    </div>
 			    <div id="specs" class="col s12">Test 2</div>
 			  </div>
 		</div>
@@ -152,8 +159,49 @@ include('header.php');
 </div>
 
 <div class="section">
-	<div class="content valign-wrapper row s12">
-		Whats in the box
+	<div class="content valign-wrapper row ">
+		<div class="row s12">
+			<div class="col s12 l10 offset-l1">
+				<div class="col s6 right-align">
+					<img style="width: 100px"  class="responsive-image" src="https://cx-images.s3.amazonaws.com/mh/ssv2/devices/google-home-glamour-v1.png">
+				</div>
+				<div class="col s6">
+					<h3>What's in the box</h3>
+					<p>Each box comes neatly packed with the following</p>
+
+					<ul>
+						<li>uHoo unit</li>
+						<li>Micro USB cable</li>
+						<li>Power adapter*</li>
+							<span>*You'll get the proper adapter based on your shipping address.
+					</ul>
+
+					<div>
+						Get the free app on
+						<div class="app-download-link">
+							<img class="responsive-image" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"><img class="responsive-image" src="https://www.callmydoc.com/wp-content/uploads/2016/06/appstore.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</span>
+		<div class="row s12">
+			<div class="col s4 offset-s4 center-align">
+				<a class="waves-effect waves-light btn">BUY NOW for $299</a>
+				<p>Want uHoo for your business? Contact</p>
+				<a href="#">business@uhooair.com</a>.
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row s12 center-align">
+	Follow us on
+	<div class="social-container">
+		<img style="width: 40px" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_square-256.png">
+		<img style="width: 40px" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_square-256.png">
+		<img style="width: 40px" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_square-256.png">
+		<img style="width: 40px" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_square-256.png">
 	</div>
 </div>
 

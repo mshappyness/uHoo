@@ -386,3 +386,7 @@ a.factor-content:hover .material-tooltip1 {visibility: visible;opacity: 1; }
     width: 20%;
     border-radius: 20px;
 }
+
+.app-download-link img {
+    width: 30%;
+}
