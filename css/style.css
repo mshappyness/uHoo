@@ -176,7 +176,7 @@ nav ul li a{
     border-radius: 50px; 
   }
 
-.carousel .indicators {left: -30%;z-index: 100;}
+#product_slider.carousel .indicators {left: -30%;z-index: 100;}
 
 #Slider .section {padding-top: 3rem;}
 
@@ -379,4 +379,10 @@ a.factor-content:hover .material-tooltip1 {visibility: visible;opacity: 1; }
 .justified-image-container li:nth-of-type(n+4){
     width: 49%;
     height: 59%;
+}
+
+#testimonial_slider .carousel-item .testimonial-container {
+    display: inline-block;
+    width: 20%;
+    border-radius: 20px;
 }

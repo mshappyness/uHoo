@@ -251,7 +251,7 @@ include('header.php');
     <div class="section">
       <div class="row">
         <div class="col s12 center-align no-padding">
-         <div class="carousel carousel-slider center">
+         <div id="product_slider" class="carousel carousel-slider center">
 
 
           <div class="carousel-fixed-item center content-slider">
@@ -331,6 +331,73 @@ include('header.php');
       </div>
     </div>
   </div>
+
+<div class="n">
+  <div class="section" style="background: #bbd9a7;">
+    <div class="content valign-wrapper row s12">
+      <div class="col s12 ">
+        <h3 class="center-align">Our happy users</h3>
+          <div class="row">
+            <div id="testimonial_slider" class="carousel carousel-slider center" data-indicators="true">
+              
+              <div class="carousel-fixed-item center middle-indicator">
+                 <div class="left">
+                  <a href="Previo" class="movePrevCarousel middle-indicator-text waves-effect waves-light content-indicator"><i class="material-icons left  middle-indicator-text">chevron_left</i></a>
+                 </div>
+                 
+                 <div class="right">
+                 <a href="Siguiente" class=" moveNextCarousel middle-indicator-text waves-effect waves-light content-indicator"><i class="material-icons right middle-indicator-text">chevron_right</i></a>
+                 </div>
+              </div>
+
+
+              <div class="carousel-item" href="#one!">
+                  
+              </div>
+              <div class="carousel-item" href="#two!">
+                
+                <div class="valign-wrapper" style="height: 100%">
+                  <div class="full-width">
+                    <div class="testimonial-container white">
+                        <p>uHoo edges out other air quality monitors with extra sensors. Super smart device that's easy to use and move around</p>
+                        <img style="width: 20px; border-radius: 20px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREiAKEBKwNKjTV-cpugnkxmV95vpamKtsgyqbYoUX6R_kEldREjg">
+                        <p><b>Jessica</b></p>
+                        <p><span>Techcrunch</span></p>
+                      </div>
+                      <div class="testimonial-container white">
+                        <p>uHoo edges out other air quality monitors with extra sensors. Super smart device that's easy to use and move around</p>
+                        <img style="width: 20px; border-radius: 20px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREiAKEBKwNKjTV-cpugnkxmV95vpamKtsgyqbYoUX6R_kEldREjg">
+                        <p><b>Jessica</b></p>
+                        <p><span>Techcrunch</span></p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item " href="#three!">
+                <div class="valign-wrapper" style="height: 100%">
+                  <div class="full-width">
+                    <div class="testimonial-container white">
+                        <p>uHoo edges out other air quality monitors with extra sensors. Super smart device that's easy to use and move around</p>
+                        <img style="width: 20px; border-radius: 20px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREiAKEBKwNKjTV-cpugnkxmV95vpamKtsgyqbYoUX6R_kEldREjg">
+                        <p><b>Jessica</b></p>
+                        <p><span>Techcrunch</span></p>
+                      </div>
+                      <div class="testimonial-container white">
+                        <p>uHoo edges out other air quality monitors with extra sensors. Super smart device that's easy to use and move around</p>
+                        <img style="width: 20px; border-radius: 20px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREiAKEBKwNKjTV-cpugnkxmV95vpamKtsgyqbYoUX6R_kEldREjg">
+                        <p><b>Jessica</b></p>
+                        <p><span>Techcrunch</span></p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 

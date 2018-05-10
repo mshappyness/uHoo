@@ -3,13 +3,19 @@ $(document).ready(function(){
     $('ul.tabs').tabs();
     // $('.tooltipped').tooltip({delay: 50, enterDelay: 350, margin: 35});
 
-    $('.carousel.carousel-slider').carousel({fullWidth: true,indicators: true});
+    // slider for product details on homepage
+    $('#product_slider').carousel({fullWidth: true,indicators: true});
+
+    // slider for testimonial on homepage
+    $('#testimonial_slider').carousel({fullWidth: true,indicators: true});
 
      // move next carousel
    $('.moveNextCarousel').click(function(e){
       e.preventDefault();
       e.stopPropagation();
-      $('.carousel').carousel('next');
+      var slider = getSliderId($(this));
+      
+      $('#'+slider).carousel('next');
        // 
        setTimeout(function(){
         moveToSlider(getActiveSliderIndex());
@@ -20,14 +26,16 @@ $(document).ready(function(){
    $('.movePrevCarousel').click(function(e){
       e.preventDefault();
       e.stopPropagation();
-      $('.carousel').carousel('prev');
+      var slider = getSliderId($(this));
+
+      $('#'+slider).carousel('prev');
        setTimeout(function(){
         moveToSlider(getActiveSliderIndex());
        }, 200);
    });
 
   // click on slider indicator
-  $('.indicator-item').click(function(e){
+  $('#product_slider .indicator-item').click(function(e){
     // console.log($(this).index());
     moveToSlider($(this).index());
 
@@ -39,6 +47,10 @@ $(document).ready(function(){
   });
 
 });
+
+function getSliderId(element){
+  return $(element).parents('.carousel').attr('id');
+}
 
 
 function getActiveSliderIndex(){
