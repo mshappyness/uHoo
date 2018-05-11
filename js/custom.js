@@ -1,21 +1,23 @@
-$(document).ready(function(){
-    $('.modal').modal();
-    $('ul.tabs').tabs();
-    // $('.tooltipped').tooltip({delay: 50, enterDelay: 350, margin: 35});
+var j = jQuery.noConflict();
+
+j(document).ready(function(){
+    j('.modal').modal();
+    j('ul.tabs').tabs();
+    // j('.tooltipped').tooltip({delay: 50, enterDelay: 350, margin: 35});
 
     // slider for product details on homepage
-    $('#product_slider').carousel({fullWidth: true,indicators: true});
+    j('#product_slider').carousel({fullWidth: true,indicators: true});
 
     // slider for testimonial on homepage
-    $('#testimonial_slider').carousel({fullWidth: true,indicators: true});
+    j('#testimonial_slider').carousel({fullWidth: true,indicators: true});
 
      // move next carousel
-   $('.moveNextCarousel').click(function(e){
+   j('.moveNextCarousel').click(function(e){
       e.preventDefault();
       e.stopPropagation();
-      var slider = getSliderId($(this));
+      var slider = getSliderId(j(this));
       
-      $('#'+slider).carousel('next');
+      j('#'+slider).carousel('next');
        // 
        setTimeout(function(){
         moveToSlider(getActiveSliderIndex());
@@ -23,48 +25,48 @@ $(document).ready(function(){
    });
 
    // move prev carousel
-   $('.movePrevCarousel').click(function(e){
+   j('.movePrevCarousel').click(function(e){
       e.preventDefault();
       e.stopPropagation();
-      var slider = getSliderId($(this));
+      var slider = getSliderId(j(this));
 
-      $('#'+slider).carousel('prev');
+      j('#'+slider).carousel('prev');
        setTimeout(function(){
         moveToSlider(getActiveSliderIndex());
        }, 200);
    });
 
   // click on slider indicator
-  $('#product_slider .indicator-item').click(function(e){
-    // console.log($(this).index());
-    moveToSlider($(this).index());
+  j('#product_slider .indicator-item').click(function(e){
+    // console.log(j(this).index());
+    moveToSlider(j(this).index());
 
   });
 
-  $('.play-video').click(function(){
-    var url = $(this).attr('video-url');
+  j('.play-video').click(function(){
+    var url = j(this).attr('video-url');
     alert('play video '+url);
   });
 
 });
 
 function getSliderId(element){
-  return $(element).parents('.carousel').attr('id');
+  return j(element).parents('.carousel').attr('id');
 }
 
 
 function getActiveSliderIndex(){
-    var indicator = $('.indicator-item.active').index();
+    var indicator = j('.indicator-item.active').index();
     return indicator;
 }
 
 
 // temporary function for slider
 function moveToSlider(index){
-  $('.green-box .slider .slides li').fadeOut();
+  j('.green-box .slider .slides li').fadeOut();
 
   var slide = index+1;
-  $('.green-box .slider .slides li.slide-'+slide).fadeIn();
+  j('.green-box .slider .slides li.slide-'+slide).fadeIn();
 }
 
 
